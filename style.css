@@ -1,0 +1,32 @@
+heading{
+    font-family: 'Vampiro One', cursive;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.header-top{
+    background-color:#f3d55c;
+    top: 0px;
+    border-top: 1px;
+    border-bottom: 1px;
+    
+
+}
+header ul li{
+    display: inline-block;
+    font-size:14px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Vampiro One', cursive;
+}
+
+footer{
+    background-color:#f3d55c
+}
+footer ul .footer-list{
+    display: inline-block;
+}
