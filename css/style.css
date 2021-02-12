@@ -52,17 +52,23 @@ body, p{
     padding: 0;}
 footer{
     background-color: #f3d55c;
+    color: white;
 }
-footer .footer-list{
+footer ul li{
     display: inline-block;
-    padding:50px
+    padding:50px;
+    
+    
 }
-.footer-headings{
-    font-family: 'Vampiro One', cursive;
+.footer-logo{
+    width: 150px;
+    height: 150px;
 }
-footer p{
+
+.designer{
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     color:white;
-}
+    font-size: 10px;
+} 
