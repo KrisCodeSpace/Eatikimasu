@@ -1,0 +1,8 @@
+Website Colour Scheme
+yellow: #ffde59
+black: rgba(255,222,89,255)
+brownish yellow: #937f2a
+
+Fonts:
+Header/Headings/Title: Vampiro One
+Paragraph: Lato
