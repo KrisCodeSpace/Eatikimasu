@@ -1,32 +1,68 @@
-heading{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Vampiro One', cursive;
 }
 body{
     font-family: 'Lato', sans-serif;
 }
+body, ul{
+    margin:0;
+    padding: 0;}
 
 .header-top{
+    text-align:right;
     background-color:#f3d55c;
-    top: 0px;
-    border-top: 1px;
-    border-bottom: 1px;
-    
 
 }
 header ul li{
     display: inline-block;
     font-size:14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px;
+    color: white;
+}
+.header-top ul .homepage{
+    font-family: 'Vampiro One', cursive;
+    font-size:20px;
+
+}
+.header-top ul .homepage span{
+    color:black;
+}
+.homepage-logo-header{
+    font-size: 100px;
+    text-align: center;
+}
+span{
+    color: white;
+}
+nav{
+    text-align: center;
 }
 nav ul li{
     display: inline-block;
     padding: 30px;
     text-align: center;
     font-family: 'Vampiro One', cursive;
+    color:white;
+    font-size: 20px;
 }
-
+body, p{
+    margin:0;
+    padding: 0;}
 footer{
-    background-color:#f3d55c
+    background-color: #f3d55c;
 }
-footer ul .footer-list{
+footer .footer-list{
     display: inline-block;
+    padding:50px
+}
+.footer-headings{
+    font-family: 'Vampiro One', cursive;
+}
+footer p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color:white;
 }
