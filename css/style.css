@@ -8,10 +8,14 @@ body, ul{
     margin:0;
     padding: 0;}
 
+/* HEADER */
+
+.header{
+    background-color:#f3d55c;
+    padding-top:5px;
+}
 .header-top{
     text-align:right;
-    background-color:#f3d55c;
-
 }
 header ul li{
     display: inline-block;
@@ -36,6 +40,7 @@ header ul li{
 span{
     color: white;
 }
+/* NAVIGATION */
 nav{
     text-align: center;
 }
@@ -47,28 +52,59 @@ nav ul li{
     color:white;
     font-size: 20px;
 }
+.hover:hover{
+    color:black;
+}
+
+/* CONTENT */
+
+.content{
+    padding: 50px;
+}
+
+/* FOOTER */
+
 body, p{
     margin:0;
-    padding: 0;}
+    padding: 0;
+}
 footer{
+    padding:50px;
     background-color: #f3d55c;
     color: white;
 }
-footer ul li{
+.footer-1 ul li, .footer-2 ul li{
     display: inline-block;
-    padding:50px;
-    
-    
-}
-.footer-logo{
-    width: 150px;
-    height: 150px;
+    font-size:14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 600;
 }
 
-.designer{
+.footer-1 ul .heading, .footer-2 ul .heading{
+    font-family: 'Vampiro One', cursive;
+    color:black;
+    font-size:16px;
+}
+a { color: inherit; /* removes the default colour blue in links */
+    text-decoration: none; /* removes the default underline in links */
+}
+
+.button:hover{
+    color:#f3d55c;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.footer-3{
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 30px;
-    color:white;
+    color:black;
     font-size: 10px;
 } 
+
