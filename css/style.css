@@ -3,6 +3,7 @@ h1, h2, h3, h4, h5, h6{
 }
 body{
     font-family: 'Lato', sans-serif;
+    background-color:#f3d55c;
 }
 body, ul{
     margin:0;
@@ -14,8 +15,16 @@ body, ul{
     background-color:#f3d55c;
     padding-top:5px;
 }
+
+.header{
+    background-image: url(../assets/spoon-n-fork.png);
+    background-repeat: no-repeat;
+    background-position-x: 56.5%;
+    background-size: 300px 300px;
+}
+/* TOPPEST NAVIGATION */
 .header-top{
-    text-align:right;
+    text-align: right;
 }
 header ul li{
     display: inline-block;
@@ -28,15 +37,22 @@ header ul li{
 .header-top ul .homepage{
     font-family: 'Vampiro One', cursive;
     font-size:20px;
-
 }
 .header-top ul .homepage span{
     color:black;
 }
+/* PICTURE HEADER */
 .homepage-logo-header{
     font-size: 100px;
     text-align: center;
 }
+.homepage-logo-tagline{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+}
+
 span{
     color: white;
 }
@@ -61,7 +77,6 @@ nav ul li{
 .content{
     padding: 50px;
 }
-
 /* FOOTER */
 
 body, p{
