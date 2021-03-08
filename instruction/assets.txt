@@ -1,8 +1,10 @@
-Website Colour Scheme
-yellow: #ffde59
-black: rgba(255,222,89,255)
-buttons color: #ffe479
+COLOR SCHEME:
+#264653 - Dark Blue
+#2a9d8f - Green
+#e9c46a - Yellow
+#f4a261 - Orange
+#e76f51 - Red
 
-Fonts:
-Header/Headings/Title: Vampiro One
-Paragraph: Lato
+FONTS: 
+Headings: Vampiro One
+Body: Lato

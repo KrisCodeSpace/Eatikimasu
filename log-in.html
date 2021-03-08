@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Vampiro+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">  
+    <script src="./javascript/login.js"></script>
     <title>Eatikimasu Log-In</title>
 </head>
 <body>
+    
     <div class="form">
         <ul class="tab-group">
-            <li class="tab active"><a href="#signup"></a>Sign Up</li>
+            <li class="tab active"><a href="#signup">Sign Up</a></li>
             <li class="tab"><a href="#login">Log In</a></li>
         </ul>
 
@@ -23,9 +25,68 @@
                 <form action="/" method="post">
                     <!-- Action normally specifies the file/page that the form is submitted to (using the method described in the method paramater (post, get etc.)) -->
                     <!-- In computing, POST is a request method supported by HTTP used by the World Wide Web. By design, the POST request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it. It is often used when uploading a file or when submitting a completed web form. -->
+
+                    <div class="top-row">
+
+                        <div class="field-wrap">
+                            <label>
+                                First Name<span class="req">*</span> <!-- It shows the information is required -->
+                            </label>
+                            <input type="text" required autocomplete="off" />
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>
+                              Last Name<span class="req">*</span>
+                            </label>
+                            <input type="text" required autocomplete="off"/>
+                          </div>
+
+                        <div class="field-wrap">
+                            <label>
+                              Email Address<span class="req">*</span>
+                            </label>
+                            <input type="email"required autocomplete="off"/>
+                        </div>  
+                        
+                        <div class="field-wrap">
+                            <label>
+                              Set A Password<span class="req">*</span>
+                            </label>
+                            <input type="password"required autocomplete="off"/>
+                          </div>
+
+                        </div>
+                        <button type="submit" class="button button-block"/>Get Started</button>
+                    </div>
                 </form>
-            </div>
-        </div>
-    </div>
+            </div> <!-- SIGN UP -->
+
+            <div id="login">
+                <h1>Welcome Back!</h1>
+                <form action="/" method="post">
+
+                    <div class="field-wrap">
+                        <label>
+                          Email Address<span class="req">*</span>
+                        </label>
+                        <input type="email"required autocomplete="off"/>
+                      </div>
+
+                      <div class="field-wrap">
+                        <label>
+                          Password<span class="req">*</span>
+                        </label>
+                        <input type="password"required autocomplete="off"/>
+                      </div>
+
+                      <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+                      <button class="button button-block"/>Log In</button>
+                </form>
+            </div> <!-- LOG IN -->
+        </div> <!-- TAB CONTENT -->
+    </div> <!-- FORM -->
+<script src="./javascript/login.js"></script>
 </body>
 </html>
